@@ -17,11 +17,11 @@ try
 }
 catch
 {
-        throw new Exception("Введіть доречний формат числа!");
+        Console.WriteLine("Введіть доречний формат числа!");
 }
 if (secondNumber == 0)
 {
-        throw new Exception("Неможна ділити на 0!");
+        Console.WriteLine("Неможна ділити на 0!");
 }
 else
 {
